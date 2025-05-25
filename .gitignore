@@ -1,0 +1,21 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore data files (if not needed in version control)
+data/
+
+# Ignore personal notes or documentation
+notes/
+
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs & environment files
+*.log
+.env
+
+# Ignore IDE-specific files (VS Code, JetBrains)
+.vscode/
+.idea/
