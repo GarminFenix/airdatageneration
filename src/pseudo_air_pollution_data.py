@@ -128,7 +128,9 @@ class PollutionData:
 
         # Store processed data in the instantiation
         self.data = input_data
-
+        
+        if success:
+            print("Data loaded and processed successfully.")
         self.__loaded = True
         return self.__loaded
 
@@ -165,18 +167,7 @@ class PollutionData:
 
 
         
+# Create a global instance
+pollution_data = PollutionData()
+pollution_data.load()
 
-
-
-def main():
-    data_list = []
-    load_json("data/pollution_data.json", data_list )
-    pollution_data = PollutionData()
-    pollution_data.__interpolate_data__(data_list)
-    
-    print(pollution_data.get_pollution_data("2025-05-19T00:00:00.000+0000", "SITE001"))
-    
-          
-    
-if __name__ == "__main__":
-    main() 
