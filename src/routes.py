@@ -6,7 +6,7 @@ from pseudo_air_pollution_data import pollution_data
 pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
 
 @pollution_bp.route('/', methods=['GET'])
-def pollution_data():
+def requested_pollution_data():
     """
     Returns pollution data for a given timestamp and site.
     """
@@ -21,8 +21,10 @@ def pollution_data():
     
     try:    
         timestamp = datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S.%f%z')
+
     except ValueError:
-        return make_response(jsonify("Invalid timestamp format. Use 'YYYY-MM-DDTHH:MM:SS.ssssss+00:00'."), 400)
+        return make_response(jsonify("Invalid timestamp format. Use 'YYYY-MM-DDTHH:MM:SS.sss+0000'."), 400)
+
     
     data = pollution_data.get_pollution_data(timestamp, site)
 
