@@ -3,7 +3,7 @@ from flask import Blueprint, make_response, jsonify, request
 from pseudo_air_pollution_data import pollution_data
 
 
-pollution_bp = Blueprint('pollution data', __name__, url_prefix='/pollutiondata')
+pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
 
 @pollution_bp.route('/', methods=['GET'])
 def pollution_data():
@@ -24,5 +24,10 @@ def pollution_data():
     except ValueError:
         return make_response(jsonify("Invalid timestamp format. Use 'YYYY-MM-DDTHH:MM:SS.ssssss+00:00'."), 400)
     
-        
-    return make_response(jsonify(pollution_data.get_pollution_data(timestamp, site)), 200)
+    data = pollution_data.get_pollution_data(timestamp, site)
+
+    if data is None or not data:
+        return make_response(jsonify("No pollution data available for the given timestamp and site."), 400)
+    
+    else:
+        return make_response(jsonify(pollution_data.get_pollution_data(timestamp, site)), 200)
