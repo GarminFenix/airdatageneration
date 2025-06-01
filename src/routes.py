@@ -1,6 +1,6 @@
 from datetime import datetime
 from flask import Blueprint, make_response, jsonify, request
-from pseudo_air_pollution_data import pollution_data
+from src.pseudo_air_pollution_data import pollution_data
 
 
 pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
@@ -16,11 +16,16 @@ def requested_pollution_data():
     timestamp = request.args.get('timestamp')
     site = request.args.get('site')
     
+    # Debugging timestamp issues
+    print(f"Received timestamp: {timestamp}")
+
     if timestamp is None or site is None:
         return make_response(jsonify("Missing parameters required: timestamp and site"), 400)
     
     try:    
+        timestamp = timestamp.replace(" ", "+")  # Format timestamp
         timestamp = datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S.%f%z')
+
 
     except ValueError:
         return make_response(jsonify("Invalid timestamp format. Use 'YYYY-MM-DDTHH:MM:SS.sss+0000'."), 400)
