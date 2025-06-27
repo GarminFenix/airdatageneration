@@ -20,7 +20,11 @@ ENV PYTHONUNBUFFERED=1
 # Ensure Flask app is mapped 
 ENV FLASK_APP=src.app
 
-WORKDIR /app
+WORKDIR /app/src
+
+# Debuggin: Inspect file layout during build
+RUN ls -R /app
+
 
 # Create a non-privileged user that the app will run under.
 # See https://docs.docker.com/go/dockerfile-user-best-practices/
@@ -34,10 +38,12 @@ RUN adduser \
     --uid "${UID}" \
     appuser
 
-# Copy requirements first 
-COPY requirements.txt .
+# Copy requirements first and use full path when copying
+COPY requirements.txt /app/requirements.txt
+
 RUN --mount=type=cache,target=/root/.cache/pip \
-    python -m pip install --no-cache-dir -r requirements.txt
+    python -m pip install --no-cache-dir -r /app/requirements.txt
+
 
 # Ensure the deployed app can be modified in azure kudu  
 RUN chown -R appuser:appuser /app  
@@ -54,6 +60,6 @@ USER appuser
 EXPOSE 80
 
 # Run the application.
-CMD ["gunicorn", "--bind=0.0.0.0:80", "src.app:app"]
+CMD ["gunicorn", "--bind=0.0.0.0:80", "app:app"]
 
 
