@@ -13,7 +13,7 @@ def create_app(test_config:dict = {}):
         app.config.update(test_config)
     
     # Register pollution_bp with the Flask app so its routes are available
-    from src.routes import pollution_bp
+    from routes import pollution_bp                  # debugging: removed src. prefix to avoid import issues
     app.register_blueprint(pollution_bp)
 
     # Debugging for container deployment issues to azure

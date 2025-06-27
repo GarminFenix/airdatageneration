@@ -1,6 +1,6 @@
 from datetime import datetime
 from flask import Blueprint, make_response, jsonify, request
-from src.pseudo_air_pollution_data import pollution_data
+from pseudo_air_pollution_data import pollution_data            # removed src. prefix to avoid import issues
 
 
 pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
@@ -32,9 +32,17 @@ def requested_pollution_data():
 
     
     data = pollution_data.get_pollution_data(timestamp, site)
+    coordinates = pollution_data.get_site_coordinates(site)
+
+    if coordinates is None:
+        return make_response(jsonify("No coordinates found for the given site."), 404)
 
     if data is None or not data:
         return make_response(jsonify("No pollution data available for the given timestamp and site."), 400)
     
-    else:
-        return make_response(jsonify(pollution_data.get_pollution_data(timestamp, site)), 200)
+    response = {
+        "coordinates": coordinates,
+        "pollution_data": data
+    }
+
+    return make_response(jsonify(response), 200)

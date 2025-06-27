@@ -3,6 +3,9 @@ from datetime import datetime, timedelta
 import logging
 import numpy
 import os
+import requests
+from dotenv import load_dotenv
+load_dotenv()                               # Load environment variables from .env file
 
 def load_json(file_name: str, json_data: list) -> bool:
     """
@@ -57,7 +60,10 @@ class PollutionData:
 
     def __init__(self) -> None:
         self.data = []
+        self.site_metadata_cache = {}
         self.__loaded = False
+        self.load_site_metadata()
+
 
     def __interpolate_data__(self, input_data) -> list:
         """
@@ -133,6 +139,38 @@ class PollutionData:
             print("Data loaded and processed successfully.")
         self.__loaded = True
         return self.__loaded
+    
+
+    def load_site_metadata(self, file_name=None, json_data=None) -> None:
+        """
+        A method to  method preload the metadata from a json file and store it in a cache for quick access.
+        """
+        
+        if file_name is None:
+            # Go one level up from the src directory to the project root
+            parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+            data_dir = os.path.join(parent_dir, "data")
+            file_name = os.path.join(data_dir, "metadata.json")
+        if json_data is None:
+            json_data = []
+
+
+        json_data.clear()
+        with open(file_name, "r") as file:
+            all_sites = json.load(file)
+    
+        
+        for site in all_sites:
+            system_code = site.get("systemCodeNumber")
+            point = site.get("definitions", [{}])[0].get("point", {})
+            coordinates = {
+                "lat": point.get("latitude"),
+                "lon": point.get("longitude"),
+            }
+            self.site_metadata_cache[system_code] = coordinates
+        print("Site metadata preloaded successfully.")
+                   
+                
 
 
     def get_pollution_data(self, current_timestamp: datetime, system_code_number: str ) -> list:
@@ -165,6 +203,18 @@ class PollutionData:
                 
         return pollution_data_list
 
+
+    def get_site_coordinates(self, system_code_number: str) -> dict:
+        """
+        A method to get the coordinates of a site based on its system code number.
+        """
+        if not self.site_metadata_cache:
+            self.load_site_metadata()
+        
+        return self.site_metadata_cache.get(system_code_number, None)
+    
+                     
+          
 
         
 # Create a global instance
