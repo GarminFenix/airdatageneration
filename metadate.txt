@@ -1,0 +1,454 @@
+```json
+[
+  {
+    "systemCodeNumber": "SITE001",
+    "definitions": [
+      {
+        "longDescription": "Ponteland Road North",
+        "point": {
+          "easting": 423100,
+          "northing": 569800,
+          "latitude": 54.9892,
+          "longitude": -1.6723
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE002",
+    "definitions": [
+      {
+        "longDescription": "Great North Road (A1)",
+        "point": {
+          "easting": 423100,
+          "northing": 568500,
+          "latitude": 54.9825,
+          "longitude": -1.6240
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE003",
+    "definitions": [
+      {
+        "longDescription": "Westgate Road near Civic Centre",
+        "point": {
+          "easting": 421900,
+          "northing": 567200,
+          "latitude": 54.9720,
+          "longitude": -1.6210
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE004",
+    "definitions": [
+      {
+        "longDescription": "A167 Pilgrim Street",
+        "point": {
+          "easting": 423400,
+          "northing": 566800,
+          "latitude": 54.9697,
+          "longitude": -1.6063
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE005",
+    "definitions": [
+      {
+        "longDescription": "New Bridge Street West",
+        "point": {
+          "easting": 424000,
+          "northing": 565300,
+          "latitude": 54.9721,
+          "longitude": -1.6193
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE006",
+    "definitions": [
+      {
+        "longDescription": "A1058 West Road",
+        "point": {
+          "easting": 422500,
+          "northing": 564900,
+          "latitude": 54.9694,
+          "longitude": -1.6135
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE007",
+    "definitions": [
+      {
+        "longDescription": "A1058 Coast Approach",
+        "point": {
+          "easting": 420900,
+          "northing": 563600,
+          "latitude": 54.9749,
+          "longitude": -1.5464
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE008",
+    "definitions": [
+      {
+        "longDescription": "A189 Shields Road",
+        "point": {
+          "easting": 422200,
+          "northing": 562400,
+          "latitude": 54.9712,
+          "longitude": -1.5458
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE009",
+    "definitions": [
+      {
+        "longDescription": "A167 Quayside near Sandhill",
+        "point": {
+          "easting": 423800,
+          "northing": 563900,
+          "latitude": 54.9713,
+          "longitude": -1.6382
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE010",
+    "definitions": [
+      {
+        "longDescription": "A167 St James Boulevard",
+        "point": {
+          "easting": 424600,
+          "northing": 565700,
+          "latitude": 54.9754,
+          "longitude": -1.6385
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE011",
+    "definitions": [
+      {
+        "longDescription": "A167 near St James Park",
+        "point": {
+          "easting": 422100,
+          "northing": 566100,
+          "latitude": 54.9718,
+          "longitude": -1.6480
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE012",
+    "definitions": [
+      {
+        "longDescription": "A1058 by Cobalt Business Park",
+        "point": {
+          "easting": 423900,
+          "northing": 567500,
+          "latitude": 55.0129,
+          "longitude": -1.5171
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE013",
+    "definitions": [
+      {
+        "longDescription": "A1 Central Slip North",
+        "point": {
+          "easting": 424300,
+          "northing": 568900,
+          "latitude": 54.996675,
+          "longitude": -1.629607
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE014",
+    "definitions": [
+      {
+        "longDescription": "A167 Tyne Bridge South Approach",
+        "point": {
+          "easting": 421600,
+          "northing": 567800,
+          "latitude": 54.9641,
+          "longitude": -1.6172
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE015",
+    "definitions": [
+      {
+        "longDescription": "A1 near Gosforth High Street",
+        "point": {
+          "easting": 422800,
+          "northing": 569400,
+          "latitude": 54.987349,
+          "longitude": -1.605731
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE016",
+    "definitions": [
+      {
+        "longDescription": "A184 Salmon Pastures",
+        "point": {
+          "easting": 424100,
+          "northing": 562700,
+          "latitude": 54.977245,
+          "longitude": -1.574373
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE017",
+    "definitions": [
+      {
+        "longDescription": "A184 Stanhope Road",
+        "point": {
+          "easting": 423500,
+          "northing": 561900,
+          "latitude": 54.954023,
+          "longitude": -1.577279
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE018",
+    "definitions": [
+      {
+        "longDescription": "A167 Felling Bypass",
+        "point": {
+          "easting": 421300,
+          "northing": 561200,
+          "latitude": 54.950516,
+          "longitude": -1.555156
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE019",
+    "definitions": [
+      {
+        "longDescription": "A184 Team Valley Road",
+        "point": {
+          "easting": 422700,
+          "northing": 562800,
+          "latitude": 54.951295,
+          "longitude": -1.563157
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE020",
+    "definitions": [
+      {
+        "longDescription": "B1318 Durham Road",
+        "point": {
+          "easting": 424400,
+          "northing": 564500,
+          "latitude": 54.933668,
+          "longitude": -1.606993
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE021",
+    "definitions": [
+      {
+        "longDescription": "A61 Durham Road (South)",
+        "point": {
+          "easting": 423200,
+          "northing": 565100,
+          "latitude": 54.953216,
+          "longitude": -1.604418
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE022",
+    "definitions": [
+      {
+        "longDescription": "A167 High Street Gateshead",
+        "point": {
+          "easting": 420800,
+          "northing": 566300,
+          "latitude": 54.959759,
+          "longitude": -1.605391
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE023",
+    "definitions": [
+      {
+        "longDescription": "A184 Redheugh Bridge",
+        "point": {
+          "easting": 421800,
+          "northing": 569100,
+          "latitude": 54.977590,
+          "longitude": -1.573939
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE024",
+    "definitions": [
+      {
+        "longDescription": "B1407 West Street",
+        "point": {
+          "easting": 424700,
+          "northing": 563300,
+          "latitude": 54.980429,
+          "longitude": -1.608907
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE025",
+    "definitions": [
+      {
+        "longDescription": "A184 Trinity Square",
+        "point": {
+          "easting": 422600,
+          "northing": 564200,
+          "latitude": 54.967075,
+          "longitude": -1.567427
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE026",
+    "definitions": [
+      {
+        "longDescription": "A184 Quays Road",
+        "point": {
+          "easting": 423300,
+          "northing": 561500,
+          "latitude": 54.942932,
+          "longitude": -1.576271
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE027",
+    "definitions": [
+      {
+        "longDescription": "A1171 Durham Road",
+        "point": {
+          "easting": 421700,
+          "northing": 562100,
+          "latitude": 54.950889,
+          "longitude": -1.617274
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE028",
+    "definitions": [
+      {
+        "longDescription": "A167 Whickham Highway (Swalwell)",
+        "point": {
+          "easting": 424800,
+          "northing": 567200,
+          "latitude": 54.973191,
+          "longitude": -1.611250
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE029",
+    "definitions": [
+      {
+        "longDescription": "A695 Pump Lane",
+        "point": {
+          "easting": 423600,
+          "northing": 561800,
+          "latitude": 54.968293,
+          "longitude": -1.687726
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE030",
+    "definitions": [
+      {
+        "longDescription": "A69 Blaydon Road",
+        "point": {
+          "easting": 421400,
+          "northing": 569600,
+          "latitude": 54.991083,
+          "longitude": -1.583397
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  }
+]
+```
