@@ -46,3 +46,16 @@ def requested_pollution_data():
     }
 
     return make_response(jsonify(response), 200)
+
+@pollution_bp.route('/sitemetadata', methods=['GET'])
+def get_all_coordinates():
+    """
+    Returns all static site metadata, ie coordinates.
+    """
+       
+    site_coords = pollution_data.get_all_sites_coordinates()
+
+    if not site_coords:
+        return make_response(jsonify("No site metadata available."), 404)
+
+    return make_response(jsonify(site_coords), 200)

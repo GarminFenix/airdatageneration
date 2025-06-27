@@ -1,11 +1,10 @@
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import logging
 import numpy
 import os
 import requests
-from dotenv import load_dotenv
-load_dotenv()                               # Load environment variables from .env file
+from apscheduler.schedulers.background import BackgroundScheduler
 
 def load_json(file_name: str, json_data: list) -> bool:
     """
@@ -52,6 +51,31 @@ def load_json(file_name: str, json_data: list) -> bool:
     
     return success
 
+"""
+def simulate_live_data():
+
+    A method to simulate live data by pushing the latest pollution data to subscribers.
+    
+
+    current_sim_time = simulate_live_data.timestamp
+    data_to_push = []
+
+    for site in pollution_data.data:
+        dynamics = site.get("dynamics", [])
+        for entry in dynamics:
+            if entry["lastUpdated"] == current_sim_time:
+                data_to_push.append({
+                    "systemCodeNumber": site["systemCodeNumber"],
+                    **{k: v for k, v in entry.items() if k != "lastUpdated"},
+                    "lastUpdated": entry["lastUpdated"].isoformat()
+                })
+
+    if data_to_push:
+        notify_subscribers("AIR QUALITY DYNAMIC", data_to_push)
+
+    # Advance simulated time by 60 seconds as per UTMC specs
+    simulate_live_data.timestamp += timedelta(seconds=60)
+    """
 
 class PollutionData:
     """
@@ -84,7 +108,7 @@ class PollutionData:
                 end_time = next_entry["lastUpdated"]
                 elapsed_seconds = int((end_time - start_time).total_seconds())
 
-                # Interpolate each pollutant between timestamps, every 10 seconds
+                # Interpolate each pollutant between timestamps, every 10 
                 step = 10
                 for j in range(0, elapsed_seconds, step):
                     interpolated_time = start_time + timedelta(seconds=j)
@@ -213,11 +237,37 @@ class PollutionData:
         
         return self.site_metadata_cache.get(system_code_number, None)
     
-                     
-          
+    
+    def get_all_sites_coordinates(self) -> list:
+        """
+        A method to get the coordinates of all sites.
+        """
+        if not self.site_metadata_cache:
+            self.load_site_metadata()
+        
+        return [
+            {"systemCodeNumber": key, **value}
+            for key, value in self.site_metadata_cache.items()
+        ]
+
+
+
+
+
+        
+
 
         
 # Create a global instance
 pollution_data = PollutionData()
-pollution_data.load()
+pollution_data.load()                   
 
+"""
+# Initial timestamp to simulate from
+simulate_live_data.timestamp = datetime(2025, 5, 19, 0, 0, 0, tzinfo=timezone.utc)
+
+scheduler = BackgroundScheduler()
+scheduler.add_job(simulate_live_data, 'interval', seconds=60)
+scheduler.start()
+
+"""
