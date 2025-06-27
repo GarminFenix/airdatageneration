@@ -1,9 +1,58 @@
 from datetime import datetime
 from flask import Blueprint, make_response, jsonify, request
-from pseudo_air_pollution_data import pollution_data            # removed src. prefix to avoid import issues
+from pseudo_air_pollution_data import pollution_data, simulate_live_data            # removed src. prefix to avoid import issues
+from subscriptions_utils import subscriptions
 
 
 pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
+
+
+subscriptions = []  # List to hold subscribers for live data updates
+
+@pollution_bp.route('/subscribe', methods=['POST'])
+def subscribe():
+    """
+    Endpoint to subscribe to live pollution data updates.
+    """
+    req_data = request.get_json()
+    notification_url = req_data.get('notificationUrl')
+    datasets = req_data.get("subscriptions", [])
+
+    if not notification_url or not datasets:
+        return make_response(jsonify("Missing 'notificationUrl' or 'subscriptions'."), 400)
+    
+    subscriptions.append({
+        "notificationUrl": notification_url,
+        "subscriptions": datasets
+    })
+    return make_response(jsonify({"SubscriptinID": len(subscriptions)}), 201)
+
+
+@pollution_bp.route('/simtime', methods=['GET'])
+def get_simulation_time():
+    """
+    Returns the current timestamp used in the live simulation.
+    """
+    return make_response(
+        jsonify({"current_simulation_time": simulate_live_data.timestamp.isoformat()}),
+        200
+    )
+
+@pollution_bp.route('/simtime', methods=['POST'])
+def set_simulation_time():
+    """
+    Manually sets the simulation timestamp.
+    Give the request in the body in this format {"timestamp": "2025-05-19T18:30:00+00:00"}
+    """
+    req_data = request.get_json()
+    ts_str = req_data.get("timestamp")
+
+    try:
+        simulate_live_data.timestamp = datetime.strptime(ts_str, '%Y-%m-%dT%H:%M:%S%z')
+        return make_response(jsonify({"message": "Simulation time updated."}), 200)
+    except Exception as e:
+        return make_response(jsonify({"error": f"Invalid timestamp: {str(e)}"}), 400)
+
 
 @pollution_bp.route('/', methods=['GET'])
 def requested_pollution_data():

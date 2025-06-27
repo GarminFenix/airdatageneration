@@ -5,6 +5,7 @@ import numpy
 import os
 import requests
 from apscheduler.schedulers.background import BackgroundScheduler
+from subscriptions_utils import notify_subscribers
 
 def load_json(file_name: str, json_data: list) -> bool:
     """
@@ -51,11 +52,11 @@ def load_json(file_name: str, json_data: list) -> bool:
     
     return success
 
-"""
-def simulate_live_data():
 
+def simulate_live_data():
+    """
     A method to simulate live data by pushing the latest pollution data to subscribers.
-    
+    """
 
     current_sim_time = simulate_live_data.timestamp
     data_to_push = []
@@ -70,12 +71,14 @@ def simulate_live_data():
                     "lastUpdated": entry["lastUpdated"].isoformat()
                 })
 
+    logging.info(f"Pushing data at {current_sim_time.isoformat()} with {len(data_to_push)} records.")
+
     if data_to_push:
         notify_subscribers("AIR QUALITY DYNAMIC", data_to_push)
 
     # Advance simulated time by 60 seconds as per UTMC specs
     simulate_live_data.timestamp += timedelta(seconds=60)
-    """
+    
 
 class PollutionData:
     """
@@ -253,16 +256,12 @@ class PollutionData:
 
 
 
-
-        
-
-
-        
+       
 # Create a global instance
 pollution_data = PollutionData()
 pollution_data.load()                   
 
-"""
+
 # Initial timestamp to simulate from
 simulate_live_data.timestamp = datetime(2025, 5, 19, 0, 0, 0, tzinfo=timezone.utc)
 
@@ -270,4 +269,3 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(simulate_live_data, 'interval', seconds=60)
 scheduler.start()
 
-"""
