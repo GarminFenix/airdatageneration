@@ -6,7 +6,7 @@ subscriptions = []
 
 def notify_subscribers(subscription_type, data, action="INSERT"):
     """
-    Notify subscribers about changes in pollution data.
+    Notify subscribers and creates the structure of the payload
     """
     for sub in subscriptions:
         if subscription_type in sub["subscriptions"]:
@@ -36,6 +36,8 @@ def notify_subscribers(subscription_type, data, action="INSERT"):
             }
 
             try:
-                requests.post(sub["notificationUrl"], json=payload)
+                response = requests.post(sub["notificationUrl"], json=payload)
+                print(f"📡 Push sent to {sub['notificationUrl']} - Status: {response.status_code}") # debugging
             except Exception as e:
                 logging.error(f"Failed to notify {sub['notificationUrl']}: {e}")
+

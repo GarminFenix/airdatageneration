@@ -7,7 +7,6 @@ from subscriptions_utils import subscriptions
 pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
 
 
-subscriptions = []  # List to hold subscribers for live data updates
 
 @pollution_bp.route('/subscribe', methods=['POST'])
 def subscribe():
@@ -21,10 +20,14 @@ def subscribe():
     if not notification_url or not datasets:
         return make_response(jsonify("Missing 'notificationUrl' or 'subscriptions'."), 400)
     
+    print(f"New subscription request: {notification_url}")  # Debugging 
     subscriptions.append({
         "notificationUrl": notification_url,
         "subscriptions": datasets
     })
+    # Push latest data to subscribers
+    print("Subscription setup. Pushing latest data push to subscribers...")  # Debugging
+    simulate_live_data()
     return make_response(jsonify({"SubscriptinID": len(subscriptions)}), 201)
 
 

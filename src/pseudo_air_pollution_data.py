@@ -63,13 +63,20 @@ def simulate_live_data():
 
     for site in pollution_data.data:
         dynamics = site.get("dynamics", [])
-        for entry in dynamics:
-            if entry["lastUpdated"] == current_sim_time:
+        # Select the closest dynamics entry to the current simulated time
+        # and ensure it is within 10 seconds of the current time
+        if dynamics:
+            closest = min(
+                dynamics,
+                key=lambda d: abs((d["lastUpdated"] - current_sim_time).total_seconds())
+            )
+            if abs((closest["lastUpdated"] - current_sim_time).total_seconds()) <= 10:
                 data_to_push.append({
-                    "systemCodeNumber": site["systemCodeNumber"],
-                    **{k: v for k, v in entry.items() if k != "lastUpdated"},
-                    "lastUpdated": entry["lastUpdated"].isoformat()
+                "systemCodeNumber": site["systemCodeNumber"],
+                **{k: v for k, v in closest.items() if k != "lastUpdated"},
+                "lastUpdated": closest["lastUpdated"].isoformat()
                 })
+
 
     logging.info(f"Pushing data at {current_sim_time.isoformat()} with {len(data_to_push)} records.")
 
