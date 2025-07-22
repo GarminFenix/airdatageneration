@@ -36,10 +36,10 @@ for site_num in range(1, num_sites + 1):
         #  monitoring sites
         # Noise: www.extrium.co.uk/noiseviewer.html
         
-        co = round(random.uniform(0.2, 0.5) if busy else random.uniform(0.1, 0.17), 2)
-        no = round(random.uniform(5, 70) if busy else random.uniform(0.1, 3.6), 2)
-        no2 = round(random.uniform(10, 70) if busy else random.uniform(1.5, 9), 2)
-        noise = round(random.uniform(69.9, 100) if busy else random.uniform(30, 70), 2)
+        co = round(random.uniform(0.5, 5.0) if busy else random.uniform(0.1, 0.17), 2)
+        no = round(random.uniform(20, 150) if busy else random.uniform(1, 10), 2)
+        no2 = round(random.uniform(40, 300) if busy else random.uniform(5, 30), 2)
+        noise = round(random.uniform(70, 100) if busy else random.uniform(30, 60), 2)
         rh = round(random.uniform(70, 85) if busy else random.uniform(55, 59.9))
         
         # Set the temperature according to the time of day
