@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import os
 
 # Settings for the simulation:
-num_sites = 30
+num_sites = 130
 start_time = datetime(2025, 5, 19, 0, 0, 0)
 interval_minutes = 10
 num_points = (24 * 60) // interval_minutes  # 144 points for 24 hours
