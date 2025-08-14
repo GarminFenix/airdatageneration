@@ -32,8 +32,8 @@ for site_num in range(1, num_sites + 1):
 
         
         # Simulate pollutant and noise values based on busy or quiet period.
-        # Data points taken from: no and no2: Sunderland Wessington Way. co: Newcastle centre historic (2012)
-        #  monitoring sites
+        # Data points taken from: no and no2: Sunderland Wessington Way. co: Newcastle 
+        # centre historic (2012) monitoring sites
         # Noise: www.extrium.co.uk/noiseviewer.html
         
         co = round(random.uniform(0.5, 5.0) if busy else random.uniform(0.1, 0.17), 2)

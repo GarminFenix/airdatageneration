@@ -1,8 +1,10 @@
+subscriptions = []
+
 # src/subscription_utils.py
 import requests
 import logging
 
-subscriptions = []
+
 
 def notify_subscribers(subscription_type, data, action="INSERT"):
     """
