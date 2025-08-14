@@ -57,9 +57,9 @@ COPY . /app/
 USER appuser
 
 # Expose the port that the application listens on.
-EXPOSE 80
+EXPOSE 8182
 
 # Run the application.
-CMD ["gunicorn", "--bind=0.0.0.0:80", "app:app"]
+CMD ["gunicorn", "--bind=0.0.0.0:8182", "app:app"]
 
 

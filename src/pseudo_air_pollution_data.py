@@ -177,7 +177,8 @@ class PollutionData:
 
     def load_site_metadata(self, file_name=None, json_data=None) -> None:
         """
-        A method to  method preload the metadata from a json file and store it in a cache for quick access.
+        A method to  method preload the metadata from a json file and store it in a cache
+        for quick access.
         """
         
         if file_name is None:
