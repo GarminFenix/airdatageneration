@@ -1,8 +1,7 @@
 # Ignore virtual environment
 myenv/
 
-# Ignore data files (if not needed in version control)
-data/
+
 
 # Ignore personal notes or documentation
 notes/
