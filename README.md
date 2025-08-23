@@ -18,7 +18,7 @@ Flutter Front End
 1. **Clone the repository**
    ```bash
    git clone https://github.com/GarminFenix/airdatageneration.git
-   cd air data generation
+   cd airdatageneration
    ```
 
 2. **Create and activate a virtual environment**
@@ -41,7 +41,7 @@ Flutter Front End
 
 5. **Generate site metadata**
    ```bash
-   python src/metadata_generator.py
+   python src/static_air_site_generation.py
    # Output → data/metadata.json
    ```
 
