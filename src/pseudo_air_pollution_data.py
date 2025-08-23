@@ -12,7 +12,7 @@ import numpy
 import os
 import requests
 from apscheduler.schedulers.background import BackgroundScheduler
-from subscriptions_utils import notify_subscribers
+from src.subscriptions_utils import notify_subscribers
 
 
 
