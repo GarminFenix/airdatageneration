@@ -24,8 +24,8 @@ Flutter Front End
 2. **Create and activate a virtual environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate      # macOS/Linux
-   venv\Scripts\activate         # Windows PowerShell
+   
+   venv\Scripts\activate         
    ```
 
 3. **Install dependencies**
@@ -47,8 +47,9 @@ Flutter Front End
 
 6. **Run the Flask service**
    ```bash
-   export FLASK_APP=src/app.py
+   $env:FLASK_APP = "src/app.py"
    flask run --host=0.0.0.0 --port=8182
+
    ```
 
 ---
