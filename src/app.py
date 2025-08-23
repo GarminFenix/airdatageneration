@@ -1,5 +1,11 @@
 from flask import Flask, jsonify
 
+"""
+This file defines the Flask appliation factory.
+Sets up the core instance and registers the pollution
+blueprint.
+"""
+
 print("app.py being loaded")    # debugging
 
 def create_app(test_config:dict = {}):

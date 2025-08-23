@@ -4,6 +4,10 @@ subscriptions = []
 import requests
 import logging
 
+"""
+Handles the logic for notifying subscribed clients with live pollution data.
+"""
+
 
 
 def notify_subscribers(subscription_type, data, action="INSERT"):
