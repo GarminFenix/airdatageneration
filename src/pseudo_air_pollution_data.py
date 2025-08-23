@@ -1,7 +1,7 @@
 """
 A module that simulates air quality data by loading pre-generated readings and 
 interpolating values. Pushes updates every 60 seconds.
-
+Author: Ross Cochrane
 """
 
 

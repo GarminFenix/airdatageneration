@@ -2,6 +2,7 @@
 A  module that defines the Flask appliation factory.
 Sets up the core instance and registers the pollution
 blueprint.
+Author: Ross Cochrane
 """
 
 

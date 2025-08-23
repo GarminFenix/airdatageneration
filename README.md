@@ -3,6 +3,14 @@
 
 A Python-based Flask service that simulates and serves air-quality data for 130 monitoring sites. It includes dynamic and static data generators, a REST API, live-data simulation with scheduled pushes to subscribers, and a suite of integration and unit tests.
 
+Developed by Ross Cochrane as part of a submission for MSc Software Development
+dissertation.
+Part of Pollution Avoidance Navigation Tool (PANT):
+Flask Pollution Data Generation Web Service (This)
+Spring API
+Flask API
+Flutter Front End
+
 ---
 
 ## 🚀 Quickstart
