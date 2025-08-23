@@ -2,6 +2,7 @@
 This file generates simulated pollution data over a 24 hour period.
 Output saved as a JSON file, structured to mimic the UTMC Open Data Service
 and to be consumed by PANT Spring API
+Author: Ross Cochrane
 """
 
 import random

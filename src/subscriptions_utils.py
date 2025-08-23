@@ -1,5 +1,6 @@
 """
 A module that handles the logic for notifying subscribed clients with live pollution data.
+Author: Ross Cochrane
 """
 
 

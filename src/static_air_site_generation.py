@@ -1,5 +1,6 @@
 """
 A module to process raw CSV Mott MacDonald supplied site data.
+Author: Ross Cochrane
 """
 
 import pandas as pd

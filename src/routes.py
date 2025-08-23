@@ -1,5 +1,6 @@
 """
 A module to define the Flask blueprint and API endpoints.
+Author: Ross Cochrane
 """
 
 
