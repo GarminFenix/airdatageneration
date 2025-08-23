@@ -1,10 +1,14 @@
-from flask import Flask, jsonify
-
 """
-This file defines the Flask appliation factory.
+A  module that defines the Flask appliation factory.
 Sets up the core instance and registers the pollution
 blueprint.
 """
+
+
+
+from flask import Flask, jsonify
+
+
 
 print("app.py being loaded")    # debugging
 

@@ -1,11 +1,13 @@
+"""
+A module to define the Flask blueprint and API endpoints.
+"""
+
+
 from datetime import datetime
 from flask import Blueprint, make_response, jsonify, request
 from pseudo_air_pollution_data import pollution_data, simulate_live_data      # removed src. prefix to avoid import issues
 from subscriptions_utils import subscriptions
 
-"""
-This file defines the Flask blueprint and API endpoints.
-"""
 
 
 pollution_bp = Blueprint('pollution-data', __name__, url_prefix='/pollutiondata')
