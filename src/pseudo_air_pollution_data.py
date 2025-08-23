@@ -7,6 +7,12 @@ import requests
 from apscheduler.schedulers.background import BackgroundScheduler
 from subscriptions_utils import notify_subscribers
 
+"""
+A script to simulate air quality data by loading pre-generated readings and 
+interpolating values. Pushes updates every 60 seconds.
+
+"""
+
 def load_json(file_name: str, json_data: list) -> bool:
     """
     A function to load a json file into a list of dictionaries
@@ -209,7 +215,9 @@ class PollutionData:
 
 
     def get_pollution_data(self, current_timestamp: datetime, system_code_number: str ) -> list:
-        
+        """
+        A method to return pollution data for a given time and site.
+        """
         if isinstance(current_timestamp, str):
             try:
                 current_timestamp = datetime.strptime(current_timestamp, '%Y-%m-%dT%H:%M:%S.%f%z')
