@@ -1,0 +1,1952 @@
+[
+  {
+    "systemCodeNumber": "SITE001",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Dryden Road",
+        "point": {
+          "easting": 425763,
+          "northing": 561593,
+          "latitude": 54.94833,
+          "longitude": -1.599313
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE002",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Dryden Road",
+        "point": {
+          "easting": 425766,
+          "northing": 561678,
+          "latitude": 54.949094,
+          "longitude": -1.599259
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE003",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Dryden Road",
+        "point": {
+          "easting": 425795,
+          "northing": 561659,
+          "latitude": 54.948921,
+          "longitude": -1.598808
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE004",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Dryden Road",
+        "point": {
+          "easting": 425844,
+          "northing": 561636,
+          "latitude": 54.948712,
+          "longitude": -1.598045
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE005",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Prince Consort Road",
+        "point": {
+          "easting": 425766,
+          "northing": 561711,
+          "latitude": 54.94939,
+          "longitude": -1.599256
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE006",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Prince Consort Road",
+        "point": {
+          "easting": 425752,
+          "northing": 561768,
+          "latitude": 54.949903,
+          "longitude": -1.599469
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE007",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Prince Consort Road",
+        "point": {
+          "easting": 425768,
+          "northing": 561776,
+          "latitude": 54.949974,
+          "longitude": -1.599219
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE008",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Prince Consort Road",
+        "point": {
+          "easting": 425786,
+          "northing": 561742,
+          "latitude": 54.949668,
+          "longitude": -1.598941
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE009",
+    "definitions": [
+      {
+        "longDescription": "Corporation Street / Firebrick Avenue",
+        "point": {
+          "easting": 424161,
+          "northing": 564183,
+          "latitude": 54.971684,
+          "longitude": -1.624106
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE010",
+    "definitions": [
+      {
+        "longDescription": "Firebrick Avenue / Draymans Way",
+        "point": {
+          "easting": 424177,
+          "northing": 564256,
+          "latitude": 54.972339,
+          "longitude": -1.62385
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE011",
+    "definitions": [
+      {
+        "longDescription": "Firebrick Avenue / Bath Lane",
+        "point": {
+          "easting": 424187,
+          "northing": 564300,
+          "latitude": 54.972734,
+          "longitude": -1.62369
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE012",
+    "definitions": [
+      {
+        "longDescription": "Corporation Street / Cross Villa Place No. 4",
+        "point": {
+          "easting": 424076,
+          "northing": 564223,
+          "latitude": 54.972047,
+          "longitude": -1.625431
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE013",
+    "definitions": [
+      {
+        "longDescription": "Draymans Way / Fry Richardson Ave",
+        "point": {
+          "easting": 424126,
+          "northing": 564262,
+          "latitude": 54.972395,
+          "longitude": -1.624646
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE014",
+    "definitions": [
+      {
+        "longDescription": "Fry Richardson Ave / Science Square",
+        "point": {
+          "easting": 424116,
+          "northing": 564337,
+          "latitude": 54.97307,
+          "longitude": -1.624796
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE015",
+    "definitions": [
+      {
+        "longDescription": "Wellington Street / Science Square",
+        "point": {
+          "easting": 424154,
+          "northing": 564398,
+          "latitude": 54.973616,
+          "longitude": -1.624198
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE016",
+    "definitions": [
+      {
+        "longDescription": "Wellington Street / Snow Gardens",
+        "point": {
+          "easting": 424096,
+          "northing": 564461,
+          "latitude": 54.974185,
+          "longitude": -1.625098
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE017",
+    "definitions": [
+      {
+        "longDescription": "Oystershell Lane / Knowledge Square",
+        "point": {
+          "easting": 424033,
+          "northing": 564339,
+          "latitude": 54.973092,
+          "longitude": -1.626093
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE018",
+    "definitions": [
+      {
+        "longDescription": "Corporation Street / Buckingham Street",
+        "point": {
+          "easting": 423850,
+          "northing": 564218,
+          "latitude": 54.972013,
+          "longitude": -1.628962
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE019",
+    "definitions": [
+      {
+        "longDescription": "Corporation Street / Colliery Avenue",
+        "point": {
+          "easting": 423992,
+          "northing": 564220,
+          "latitude": 54.972024,
+          "longitude": -1.626743
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE020",
+    "definitions": [
+      {
+        "longDescription": "Bath Lane / The Core Building",
+        "point": {
+          "easting": 424222,
+          "northing": 564304,
+          "latitude": 54.972768,
+          "longitude": -1.623143
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE021",
+    "definitions": [
+      {
+        "longDescription": "Wellington Street / Pitt Street",
+        "point": {
+          "easting": 424073,
+          "northing": 564498,
+          "latitude": 54.974518,
+          "longitude": -1.625455
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE022",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Chandos Street",
+        "point": {
+          "easting": 425791,
+          "northing": 561901,
+          "latitude": 54.951096,
+          "longitude": -1.598849
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE023",
+    "definitions": [
+      {
+        "longDescription": "Shipcote Terrace / A167 Durham Road",
+        "point": {
+          "easting": 425792,
+          "northing": 561937,
+          "latitude": 54.95142,
+          "longitude": -1.59883
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE024",
+    "definitions": [
+      {
+        "longDescription": "Shipcote Terrace / A167 Durham Road",
+        "point": {
+          "easting": 425837,
+          "northing": 561940,
+          "latitude": 54.951444,
+          "longitude": -1.598127
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE025",
+    "definitions": [
+      {
+        "longDescription": "Shipcote Lane / A167 Durham Road",
+        "point": {
+          "easting": 425753,
+          "northing": 561920,
+          "latitude": 54.951269,
+          "longitude": -1.59944
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE026",
+    "definitions": [
+      {
+        "longDescription": "Shipcote Lane / A167 Durham Road",
+        "point": {
+          "easting": 425694,
+          "northing": 561880,
+          "latitude": 54.950912,
+          "longitude": -1.600365
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE027",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Shipcote Terrace",
+        "point": {
+          "easting": 425783,
+          "northing": 561971,
+          "latitude": 54.951726,
+          "longitude": -1.598967
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE028",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Shipcote Terrace",
+        "point": {
+          "easting": 425760,
+          "northing": 561999,
+          "latitude": 54.951978,
+          "longitude": -1.599324
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE029",
+    "definitions": [
+      {
+        "longDescription": "A167 Durham Road / Raby Street",
+        "point": {
+          "easting": 425774,
+          "northing": 561838,
+          "latitude": 54.950531,
+          "longitude": -1.59912
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE030",
+    "definitions": [
+      {
+        "longDescription": "A184 / Gateshead Interchange",
+        "point": {
+          "easting": 425305,
+          "northing": 562957,
+          "latitude": 54.96061,
+          "longitude": -1.606344
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE031",
+    "definitions": [
+      {
+        "longDescription": "A184 / B1426 Prince Consort Road",
+        "point": {
+          "easting": 425339,
+          "northing": 562935,
+          "latitude": 54.960411,
+          "longitude": -1.605815
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE032",
+    "definitions": [
+      {
+        "longDescription": "A184 / Walker Terrace",
+        "point": {
+          "easting": 425327,
+          "northing": 563002,
+          "latitude": 54.961013,
+          "longitude": -1.605996
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE033",
+    "definitions": [
+      {
+        "longDescription": "A184 / Half Moon Lane",
+        "point": {
+          "easting": 425344,
+          "northing": 563079,
+          "latitude": 54.961705,
+          "longitude": -1.605724
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE034",
+    "definitions": [
+      {
+        "longDescription": "A184 / Mulgrave Terrace",
+        "point": {
+          "easting": 425305,
+          "northing": 563045,
+          "latitude": 54.961401,
+          "longitude": -1.606336
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE035",
+    "definitions": [
+      {
+        "longDescription": "Neville Street / Wesgate Road / Hotel",
+        "point": {
+          "easting": 424746,
+          "northing": 563938,
+          "latitude": 54.969453,
+          "longitude": -1.614989
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE036",
+    "definitions": [
+      {
+        "longDescription": "Neville Street / Westgate Road / Ped Island",
+        "point": {
+          "easting": 424740,
+          "northing": 563952,
+          "latitude": 54.969579,
+          "longitude": -1.615082
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE037",
+    "definitions": [
+      {
+        "longDescription": "Neville Street / Grainger Street",
+        "point": {
+          "easting": 424659,
+          "northing": 563916,
+          "latitude": 54.96926,
+          "longitude": -1.61635
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE038",
+    "definitions": [
+      {
+        "longDescription": "Neville Street / Central Station Portico",
+        "point": {
+          "easting": 424622,
+          "northing": 563906,
+          "latitude": 54.969172,
+          "longitude": -1.616929
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE039",
+    "definitions": [
+      {
+        "longDescription": "Westgate Road / Grainger Street",
+        "point": {
+          "easting": 424654,
+          "northing": 563985,
+          "latitude": 54.96988,
+          "longitude": -1.616422
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE040",
+    "definitions": [
+      {
+        "longDescription": "Westgate Road / Grainger Street / Church",
+        "point": {
+          "easting": 424672,
+          "northing": 563999,
+          "latitude": 54.970005,
+          "longitude": -1.61614
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE041",
+    "definitions": [
+      {
+        "longDescription": "Neville Street / Bewick Street",
+        "point": {
+          "easting": 424519,
+          "northing": 563872,
+          "latitude": 54.968871,
+          "longitude": -1.618541
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE042",
+    "definitions": [
+      {
+        "longDescription": "A186 Neville Street / Westgate Road",
+        "point": {
+          "easting": 424746,
+          "northing": 563938,
+          "latitude": 54.969453,
+          "longitude": -1.614989
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE043",
+    "definitions": [
+      {
+        "longDescription": "A186 Westgate Road / Neville Street",
+        "point": {
+          "easting": 424740,
+          "northing": 563952,
+          "latitude": 54.969579,
+          "longitude": -1.615082
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE044",
+    "definitions": [
+      {
+        "longDescription": "A186 Neville Street / Central Station Car Park Entry",
+        "point": {
+          "easting": 424659,
+          "northing": 563916,
+          "latitude": 54.96926,
+          "longitude": -1.61635
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE045",
+    "definitions": [
+      {
+        "longDescription": "A186 Neville Street / Grainger Street",
+        "point": {
+          "easting": 424622,
+          "northing": 563906,
+          "latitude": 54.969172,
+          "longitude": -1.616929
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE046",
+    "definitions": [
+      {
+        "longDescription": "A186 Neville Street / Bewick Street",
+        "point": {
+          "easting": 424519,
+          "northing": 563872,
+          "latitude": 54.968871,
+          "longitude": -1.618541
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE047",
+    "definitions": [
+      {
+        "longDescription": "A186 Westgate Road / Grainger Street",
+        "point": {
+          "easting": 424654,
+          "northing": 563985,
+          "latitude": 54.96988,
+          "longitude": -1.616422
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE048",
+    "definitions": [
+      {
+        "longDescription": "Grainger Street / A186 Westgate Road",
+        "point": {
+          "easting": 424672,
+          "northing": 563999,
+          "latitude": 54.970005,
+          "longitude": -1.61614
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE049",
+    "definitions": [
+      {
+        "longDescription": "Bottle Bank / Hills Street",
+        "point": {
+          "easting": 425440,
+          "northing": 563532,
+          "latitude": 54.96577,
+          "longitude": -1.604185
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE050",
+    "definitions": [
+      {
+        "longDescription": "Half Moon Lane / Hills Street",
+        "point": {
+          "easting": 425434,
+          "northing": 563519,
+          "latitude": 54.965654,
+          "longitude": -1.60428
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE051",
+    "definitions": [
+      {
+        "longDescription": "A167 High Street / Church Street",
+        "point": {
+          "easting": 425486,
+          "northing": 563524,
+          "latitude": 54.965696,
+          "longitude": -1.603467
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE052",
+    "definitions": [
+      {
+        "longDescription": "Hills Street / Half Moon Lane",
+        "point": {
+          "easting": 425452,
+          "northing": 563510,
+          "latitude": 54.965572,
+          "longitude": -1.603999
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE053",
+    "definitions": [
+      {
+        "longDescription": "A167 / Tyne Bridge",
+        "point": {
+          "easting": 425430,
+          "northing": 563611,
+          "latitude": 54.966481,
+          "longitude": -1.604334
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE054",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / A186 Westgate Road",
+        "point": {
+          "easting": 424268,
+          "northing": 564101,
+          "latitude": 54.970942,
+          "longitude": -1.622442
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE055",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / A186 Westgate Road",
+        "point": {
+          "easting": 424232,
+          "northing": 564076,
+          "latitude": 54.970719,
+          "longitude": -1.623006
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE056",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Cross Villa Place No. 1",
+        "point": {
+          "easting": 424245,
+          "northing": 564158,
+          "latitude": 54.971455,
+          "longitude": -1.622796
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE057",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Rutherford Street",
+        "point": {
+          "easting": 424273,
+          "northing": 564156,
+          "latitude": 54.971435,
+          "longitude": -1.622359
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE058",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Rutherford Street",
+        "point": {
+          "easting": 424273,
+          "northing": 564196,
+          "latitude": 54.971795,
+          "longitude": -1.622356
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE059",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Draymans Way",
+        "point": {
+          "easting": 424251,
+          "northing": 564207,
+          "latitude": 54.971895,
+          "longitude": -1.622698
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE060",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / A186 Westgate Road",
+        "point": {
+          "easting": 424232,
+          "northing": 564055,
+          "latitude": 54.97053,
+          "longitude": -1.623008
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE061",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Temple Street",
+        "point": {
+          "easting": 424262,
+          "northing": 564035,
+          "latitude": 54.970349,
+          "longitude": -1.622541
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE062",
+    "definitions": [
+      {
+        "longDescription": "B1311 Gallowgate / A189 St. James' Boulevard",
+        "point": {
+          "easting": 424369,
+          "northing": 564396,
+          "latitude": 54.973587,
+          "longitude": -1.620839
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE063",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / B1311 Gallowgate",
+        "point": {
+          "easting": 424324,
+          "northing": 564381,
+          "latitude": 54.973455,
+          "longitude": -1.621543
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE064",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Citygate",
+        "point": {
+          "easting": 424296,
+          "northing": 564335,
+          "latitude": 54.973043,
+          "longitude": -1.621985
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE065",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Bath Lane",
+        "point": {
+          "easting": 424262,
+          "northing": 564263,
+          "latitude": 54.972398,
+          "longitude": -1.622522
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE066",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Bath Lane",
+        "point": {
+          "easting": 424292,
+          "northing": 564260,
+          "latitude": 54.972369,
+          "longitude": -1.622054
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE067",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Citygate",
+        "point": {
+          "easting": 424322,
+          "northing": 564325,
+          "latitude": 54.972952,
+          "longitude": -1.621579
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE068",
+    "definitions": [
+      {
+        "longDescription": "A189 St. James' Boulevard / Citygate",
+        "point": {
+          "easting": 424287,
+          "northing": 564289,
+          "latitude": 54.97263,
+          "longitude": -1.622129
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE069",
+    "definitions": [
+      {
+        "longDescription": "Blue Star Square",
+        "point": {
+          "easting": 424225,
+          "northing": 564234,
+          "latitude": 54.972139,
+          "longitude": -1.623102
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE070",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / A189 Blue House",
+        "point": {
+          "easting": 424653,
+          "northing": 566719,
+          "latitude": 54.994448,
+          "longitude": -1.616204
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE071",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / A189 Blue House",
+        "point": {
+          "easting": 424641,
+          "northing": 566778,
+          "latitude": 54.994979,
+          "longitude": -1.616386
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE072",
+    "definitions": [
+      {
+        "longDescription": "A189 Grandstand Road / B1318 Blue House",
+        "point": {
+          "easting": 424619,
+          "northing": 566836,
+          "latitude": 54.995501,
+          "longitude": -1.616725
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE073",
+    "definitions": [
+      {
+        "longDescription": "A189 Grandstand Road / B1318 Blue House",
+        "point": {
+          "easting": 424561,
+          "northing": 566850,
+          "latitude": 54.99563,
+          "longitude": -1.61763
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE074",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / A189 Blue House",
+        "point": {
+          "easting": 424663,
+          "northing": 566820,
+          "latitude": 54.995355,
+          "longitude": -1.616039
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE075",
+    "definitions": [
+      {
+        "longDescription": "A189 Jesmond Dene Road / B1318 Blue House",
+        "point": {
+          "easting": 424722,
+          "northing": 566888,
+          "latitude": 54.995963,
+          "longitude": -1.615111
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE076",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / A189 Blue House",
+        "point": {
+          "easting": 424650,
+          "northing": 566862,
+          "latitude": 54.995733,
+          "longitude": -1.616238
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE077",
+    "definitions": [
+      {
+        "longDescription": "A167 High Street / A184 Askew Road",
+        "point": {
+          "easting": 425512,
+          "northing": 563465,
+          "latitude": 54.965165,
+          "longitude": -1.603066
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE078",
+    "definitions": [
+      {
+        "longDescription": "A184 Askew Road / A167 High Street",
+        "point": {
+          "easting": 425489,
+          "northing": 563469,
+          "latitude": 54.965202,
+          "longitude": -1.603425
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE079",
+    "definitions": [
+      {
+        "longDescription": "A184 Askew Road / West Street",
+        "point": {
+          "easting": 425409,
+          "northing": 563413,
+          "latitude": 54.964703,
+          "longitude": -1.604679
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE080",
+    "definitions": [
+      {
+        "longDescription": "A184 Quaysgate / A167 High Street",
+        "point": {
+          "easting": 425538,
+          "northing": 563488,
+          "latitude": 54.96537,
+          "longitude": -1.602658
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE081",
+    "definitions": [
+      {
+        "longDescription": "A167 High Street / Oakwellgate",
+        "point": {
+          "easting": 425599,
+          "northing": 563461,
+          "latitude": 54.965124,
+          "longitude": -1.601708
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE082",
+    "definitions": [
+      {
+        "longDescription": "A167 Gateshead Highway / High Street",
+        "point": {
+          "easting": 425649,
+          "northing": 563394,
+          "latitude": 54.96452,
+          "longitude": -1.600933
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE083",
+    "definitions": [
+      {
+        "longDescription": "Bottle Bank / A167 Tyne Bridge",
+        "point": {
+          "easting": 425422,
+          "northing": 563554,
+          "latitude": 54.965969,
+          "longitude": -1.604464
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE084",
+    "definitions": [
+      {
+        "longDescription": "A189 Barrack Road / Stanhope Street",
+        "point": {
+          "easting": 424056,
+          "northing": 564599,
+          "latitude": 54.975427,
+          "longitude": -1.625712
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE085",
+    "definitions": [
+      {
+        "longDescription": "A189 Barrack Road / St. James' Park",
+        "point": {
+          "easting": 424081,
+          "northing": 564601,
+          "latitude": 54.975444,
+          "longitude": -1.625321
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE086",
+    "definitions": [
+      {
+        "longDescription": "A189 Barrack Road / St. James' Park",
+        "point": {
+          "easting": 424167,
+          "northing": 564566,
+          "latitude": 54.975125,
+          "longitude": -1.62398
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE087",
+    "definitions": [
+      {
+        "longDescription": "A189 Barrack Road / St. James' Park",
+        "point": {
+          "easting": 424210,
+          "northing": 564545,
+          "latitude": 54.974934,
+          "longitude": -1.623311
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE088",
+    "definitions": [
+      {
+        "longDescription": "A189 Barrack Road / Stanhope Street",
+        "point": {
+          "easting": 424004,
+          "northing": 564621,
+          "latitude": 54.975627,
+          "longitude": -1.626522
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE089",
+    "definitions": [
+      {
+        "longDescription": "A189 Barrack Road / Leazes Park",
+        "point": {
+          "easting": 424016,
+          "northing": 564675,
+          "latitude": 54.976112,
+          "longitude": -1.62633
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE090",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Moor Crescent",
+        "point": {
+          "easting": 424515,
+          "northing": 567339,
+          "latitude": 55.000026,
+          "longitude": -1.618308
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE091",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Moorfield",
+        "point": {
+          "easting": 424537,
+          "northing": 567258,
+          "latitude": 54.999297,
+          "longitude": -1.617971
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE092",
+    "definitions": [
+      {
+        "longDescription": "Claremont Road / Queen Victoria Road",
+        "point": {
+          "easting": 424663,
+          "northing": 565288,
+          "latitude": 54.981589,
+          "longitude": -1.61617
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE093",
+    "definitions": [
+      {
+        "longDescription": "Queen Victoria Road / Claremont Place",
+        "point": {
+          "easting": 424616,
+          "northing": 565249,
+          "latitude": 54.98124,
+          "longitude": -1.616908
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE094",
+    "definitions": [
+      {
+        "longDescription": "Exhibition Park / Skate Park",
+        "point": {
+          "easting": 424643,
+          "northing": 565364,
+          "latitude": 54.982272,
+          "longitude": -1.616476
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE095",
+    "definitions": [
+      {
+        "longDescription": "Queen Victoria Road / Armstrong Building",
+        "point": {
+          "easting": 424618,
+          "northing": 565113,
+          "latitude": 54.980018,
+          "longitude": -1.616888
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE096",
+    "definitions": [
+      {
+        "longDescription": "Queen Victoria Road / Percy Building",
+        "point": {
+          "easting": 424623,
+          "northing": 565157,
+          "latitude": 54.980413,
+          "longitude": -1.616806
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE097",
+    "definitions": [
+      {
+        "longDescription": "Queen Victoria Road / Great North Children's Hospital",
+        "point": {
+          "easting": 424589,
+          "northing": 565050,
+          "latitude": 54.979454,
+          "longitude": -1.617347
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE098",
+    "definitions": [
+      {
+        "longDescription": "Lovers' Lane / Ridley Building 1",
+        "point": {
+          "easting": 424578,
+          "northing": 565263,
+          "latitude": 54.981368,
+          "longitude": -1.6175
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE099",
+    "definitions": [
+      {
+        "longDescription": "Queen Victoria Road / Benson Building",
+        "point": {
+          "easting": 424573,
+          "northing": 565008,
+          "latitude": 54.979077,
+          "longitude": -1.6176
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE100",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Hawthorn Road",
+        "point": {
+          "easting": 424386,
+          "northing": 567708,
+          "latitude": 55.003348,
+          "longitude": -1.620293
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE101",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Hawthorn Road",
+        "point": {
+          "easting": 424395,
+          "northing": 567779,
+          "latitude": 55.003986,
+          "longitude": -1.620146
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE102",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / St. Nicholas Avenue",
+        "point": {
+          "easting": 424380,
+          "northing": 567819,
+          "latitude": 55.004346,
+          "longitude": -1.620377
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE103",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / St. Nicholas Avenue",
+        "point": {
+          "easting": 424402,
+          "northing": 567897,
+          "latitude": 55.005046,
+          "longitude": -1.620027
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE104",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Ivy Road",
+        "point": {
+          "easting": 424392,
+          "northing": 567946,
+          "latitude": 55.005487,
+          "longitude": -1.620179
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE105",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Ivy Road",
+        "point": {
+          "easting": 424409,
+          "northing": 567985,
+          "latitude": 55.005836,
+          "longitude": -1.61991
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE106",
+    "definitions": [
+      {
+        "longDescription": "Exhibition Park / Claremont Road",
+        "point": {
+          "easting": 424634,
+          "northing": 565335,
+          "latitude": 54.982012,
+          "longitude": -1.616619
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE107",
+    "definitions": [
+      {
+        "longDescription": "Leazes Lane / St. Thomas' Crescent",
+        "point": {
+          "easting": 424518,
+          "northing": 564798,
+          "latitude": 54.977193,
+          "longitude": -1.618477
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE108",
+    "definitions": [
+      {
+        "longDescription": "Leazes Lane / Leazes Park Road",
+        "point": {
+          "easting": 424510,
+          "northing": 564732,
+          "latitude": 54.9766,
+          "longitude": -1.618608
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE109",
+    "definitions": [
+      {
+        "longDescription": "Leazes Park Road / Newcastle Companions Club",
+        "point": {
+          "easting": 424501,
+          "northing": 564664,
+          "latitude": 54.975989,
+          "longitude": -1.618754
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE110",
+    "definitions": [
+      {
+        "longDescription": "Leazes Park Road / Strawberry Place",
+        "point": {
+          "easting": 424537,
+          "northing": 564602,
+          "latitude": 54.97543,
+          "longitude": -1.618197
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE111",
+    "definitions": [
+      {
+        "longDescription": "Terrace Place / Leazes Park Road",
+        "point": {
+          "easting": 424485,
+          "northing": 564697,
+          "latitude": 54.976287,
+          "longitude": -1.619001
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE112",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Woodbine Road",
+        "point": {
+          "easting": 424413,
+          "northing": 568081,
+          "latitude": 55.006699,
+          "longitude": -1.619839
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE113",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / South Cross Street",
+        "point": {
+          "easting": 424422,
+          "northing": 568045,
+          "latitude": 55.006375,
+          "longitude": -1.619702
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE114",
+    "definitions": [
+      {
+        "longDescription": "A191 Church Road / B1318 High Street",
+        "point": {
+          "easting": 424443,
+          "northing": 568131,
+          "latitude": 55.007146,
+          "longitude": -1.619366
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE115",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / A191 Salters' Road",
+        "point": {
+          "easting": 424428,
+          "northing": 568153,
+          "latitude": 55.007345,
+          "longitude": -1.619599
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE116",
+    "definitions": [
+      {
+        "longDescription": "B1318 High Street / Lansdowne Place",
+        "point": {
+          "easting": 424415,
+          "northing": 568219,
+          "latitude": 55.007939,
+          "longitude": -1.619796
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE117",
+    "definitions": [
+      {
+        "longDescription": "A191 Salters' Road / B1318 High Street",
+        "point": {
+          "easting": 424395,
+          "northing": 568157,
+          "latitude": 55.007382,
+          "longitude": -1.620114
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE118",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / Regent Farm Road",
+        "point": {
+          "easting": 424371,
+          "northing": 568517,
+          "latitude": 55.010619,
+          "longitude": -1.620459
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE119",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / Regent Centre Interchange (South)",
+        "point": {
+          "easting": 424348,
+          "northing": 568546,
+          "latitude": 55.01088,
+          "longitude": -1.620816
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE120",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / Regent Centre Interchange Bridge",
+        "point": {
+          "easting": 424343,
+          "northing": 568641,
+          "latitude": 55.011734,
+          "longitude": -1.620886
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE121",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / Regent Centre Interchange Bridge",
+        "point": {
+          "easting": 424362,
+          "northing": 568642,
+          "latitude": 55.011742,
+          "longitude": -1.620589
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE122",
+    "definitions": [
+      {
+        "longDescription": "Regent Centre Interchange (North)",
+        "point": {
+          "easting": 424308,
+          "northing": 568692,
+          "latitude": 55.012194,
+          "longitude": -1.621429
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE123",
+    "definitions": [
+      {
+        "longDescription": "B1318 Great North Road / Hollywood Avenue",
+        "point": {
+          "easting": 424343,
+          "northing": 568727,
+          "latitude": 55.012507,
+          "longitude": -1.620879
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE124",
+    "definitions": [
+      {
+        "longDescription": "A189 St James' Boulevard / A186 Westmorland Road",
+        "point": {
+          "easting": 424223,
+          "northing": 563808,
+          "latitude": 54.968311,
+          "longitude": -1.623169
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE125",
+    "definitions": [
+      {
+        "longDescription": "A186 Westmorland Road / A695 Marlborough Crescent",
+        "point": {
+          "easting": 424275,
+          "northing": 563818,
+          "latitude": 54.968398,
+          "longitude": -1.622356
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE126",
+    "definitions": [
+      {
+        "longDescription": "A186 Westmorland Road / Times Square",
+        "point": {
+          "easting": 424357,
+          "northing": 563816,
+          "latitude": 54.968376,
+          "longitude": -1.621076
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE127",
+    "definitions": [
+      {
+        "longDescription": "A186 Neville Street / Clayton Street West",
+        "point": {
+          "easting": 424420,
+          "northing": 563836,
+          "latitude": 54.968553,
+          "longitude": -1.62009
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE128",
+    "definitions": [
+      {
+        "longDescription": "A186 St James Boulevard / A186 Westmorland Road",
+        "point": {
+          "easting": 424229,
+          "northing": 563882,
+          "latitude": 54.968975,
+          "longitude": -1.623069
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE129",
+    "definitions": [
+      {
+        "longDescription": "A186 Westmorland Road / Clayton Street West",
+        "point": {
+          "easting": 424380,
+          "northing": 563837,
+          "latitude": 54.968564,
+          "longitude": -1.620715
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  },
+  {
+    "systemCodeNumber": "SITE130",
+    "definitions": [
+      {
+        "longDescription": "Air Quality Location",
+        "point": {
+          "easting": 471763,
+          "northing": 518049,
+          "latitude": 54.552609,
+          "longitude": -0.891987
+        },
+        "lastUpdated": "2025-06-26T19:47:00.000+0000"
+      }
+    ]
+  }
+]
