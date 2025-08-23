@@ -6,8 +6,8 @@ Author: Ross Cochrane
 
 from datetime import datetime
 from flask import Blueprint, make_response, jsonify, request
-from pseudo_air_pollution_data import pollution_data, simulate_live_data      # removed src. prefix to avoid import issues
-from subscriptions_utils import subscriptions
+from src.pseudo_air_pollution_data import pollution_data, simulate_live_data      # removed src. prefix to avoid import issues
+from src.subscriptions_utils import subscriptions
 
 
 
