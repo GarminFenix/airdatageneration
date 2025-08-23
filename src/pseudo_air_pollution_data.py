@@ -1,3 +1,10 @@
+"""
+A module that simulates air quality data by loading pre-generated readings and 
+interpolating values. Pushes updates every 60 seconds.
+
+"""
+
+
 import json
 from datetime import datetime, timedelta, timezone
 import logging
@@ -7,11 +14,7 @@ import requests
 from apscheduler.schedulers.background import BackgroundScheduler
 from subscriptions_utils import notify_subscribers
 
-"""
-A script to simulate air quality data by loading pre-generated readings and 
-interpolating values. Pushes updates every 60 seconds.
 
-"""
 
 def load_json(file_name: str, json_data: list) -> bool:
     """

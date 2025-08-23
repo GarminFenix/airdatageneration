@@ -1,12 +1,14 @@
+"""
+A module that handles the logic for notifying subscribed clients with live pollution data.
+"""
+
+
 subscriptions = []
 
 # src/subscription_utils.py
 import requests
 import logging
 
-"""
-Handles the logic for notifying subscribed clients with live pollution data.
-"""
 
 
 

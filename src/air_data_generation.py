@@ -1,13 +1,15 @@
-import random
-import json
-from datetime import datetime, timedelta
-import os
-
 """
 This file generates simulated pollution data over a 24 hour period.
 Output saved as a JSON file, structured to mimic the UTMC Open Data Service
 and to be consumed by PANT Spring API
 """
+
+import random
+import json
+from datetime import datetime, timedelta
+import os
+
+
 
 # Settings for the simulation:
 num_sites = 130

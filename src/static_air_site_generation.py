@@ -1,10 +1,12 @@
+"""
+A module to process raw CSV Mott MacDonald supplied site data.
+"""
+
 import pandas as pd
 import json
 from pyproj import Transformer
 
-"""
-A script to process raw CSV Mott MacDonald supplied site data.
-"""
+
 
 # Initialize transformer from EPSG:27700 (OSGB) to WGS84
 transformer = Transformer.from_crs("epsg:27700", "epsg:4326", always_xy=True)
