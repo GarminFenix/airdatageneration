@@ -25,8 +25,8 @@ def create_app(test_config:dict = {}):
         app.config.update(test_config)
     
     # Register pollution_bp with the Flask app so its routes are available
-    from src.routes import pollution_bp                 # debugging: removed src. prefix to avoid 
-                                                    #import issues
+    from src.routes import pollution_bp                 
+                                                    
     app.register_blueprint(pollution_bp)
 
     # health check route for azure restart issues
@@ -34,7 +34,7 @@ def create_app(test_config:dict = {}):
     def health_check():
         return jsonify(status="healthy"), 200
 
-    # Debugging for container deployment issues to azure
+    # Debugging  for container deployment issues to azure
     print("Create_app successfully executed.")
     
     return app

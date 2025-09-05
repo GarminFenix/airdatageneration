@@ -1,7 +1,9 @@
 # Ignore virtual environment
 myenv/
 
-
+# Ignore documentation
+docs/
+src/docs
 
 # Ignore personal notes or documentation
 notes/
